@@ -11,15 +11,31 @@ Essa é uma versão automatizada e gerenciada pelo Terraform do "[Projeto: hospe
 * ``Terraform``
 
 ## Instalação
-Certifique-se de que tenha instalado o AWS CLI e o Terraform. Além disso, não se esqueça de utilizar o comando "aws configure" para se autenticar com suas credenciais.
+Certifique-se de que tenha **instalado o AWS CLI e o Terraform**. Além disso, não se esqueça de utilizar o comando **"aws configure"** para se autenticar com suas credenciais.
 
-Após essas etapas, basta iniciar o git bash ou o prompt de comando na pasta do projeto e utilizar os seguintes comandos:
+Após os requerimentos acima, basta iniciar o git bash ou o prompt de comando para:
+
+1. Clonar o repositório
+
+```bash
+git clone https://github.com/Ramon-Fernando/terraform-minecraft-server-aws
+```
+
+2. Mudar o diretório de trabalho
+
+```bash
+cd terraform-minecraft-server-aws
+```
+
+3. Iniciar o Terraform
+
 ```bash
 terraform init
 terraform plan
 terraform apply
 ```
-O nome para o bucket do S3 será requerido, não esqueça que precisar ser um nome único globalmente.
+
+O nome para o bucket do S3 será requerido, não esqueça de utilizar um nome único globalmente.
 
 ## Observações
 Como o projeto ainda está desenvolvimento e o código passando por melhorias, não está contemplado nesse template:
